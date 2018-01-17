@@ -1,0 +1,19 @@
+{
+  "name": "richardhughes/rabbitmq",
+  "description": "A library to connect to a rabbitmq",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Richie Hughes",
+      "email": "eeuc40@hotmail.com"
+    }
+  ],
+  "require": {
+    "php-amqplib/php-amqplib": "^2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "RabbitMq\\": "src/"
+    }
+  }
+}
